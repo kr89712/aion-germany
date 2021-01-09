@@ -59,7 +59,6 @@ public class SM_INSTANCE_INFO extends AionServerPacket {
 		writeC(!isAnswer ? 2 : hasTeam ? 1 : 0);
 		writeC(cooldownId);
 		writeD(0);
-		writeC(1);
 		writeH(1);
 		if (cooldownId == 0) {
 			writeD(player.getObjectId());
