@@ -2198,7 +2198,11 @@
 				</case>
 			</switch>
 		</packet>
+<<<<<<< HEAD
 		<packet id="0x23" name="SM_GATHER_UPDATE">
+=======
+		<packet id="0x23558" name="SM_GATHER_UPDATE">
+>>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
 			<part name="skillId" type="h">
 				<reader type="UrlOpen" url="http://aioncodex.com/en/skill/%s"/>
 			</part>
@@ -6027,7 +6031,11 @@
 		<packet id="0x9A" name="SM_SUMMON_OWNER_REMOVE">
 			<part name="summonObjId" type="d"/>
 		</packet>
+<<<<<<< HEAD
 		<packet id="0x9B" name="SM_SUMMON_UPDATE">
+=======
+		<packet id="0x9B125" name="SM_SUMMON_UPDATE">
+>>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
 			<part name="level *check*" type="c"/>
 			<part name="modeId *check*" type="h"/>
 			<part name="unk" type="d"/>
@@ -8044,16 +8052,13 @@
 						</part>
 						<part name="Display Helmet" type="h"/>
 						<part name="unk" type="h"/>
-						<part name="unk (new 7.5)" type="d"/>
-						<part name="unk (new 7.5)" type="d"/>
-						<part name="unk" type="d"/>
 						<part name="Mail Ammount" type="d"/> <!-- checked -->
 						<part name="Unread Mail Ammount" type="d"/> <!-- checked -->
 						<part name="unk(0x00)" type="d"/>
 						<part name="unk(0x00)" type="d"/>
+						<part name="unk(0x00)" type="d"/>
 						<part name="broker/kinah" type="Q"/> <!-- checked -->
-						<part name="unk" type="d"/>
-						<part name="unk" type="b" size="146"/>
+						<part name="unk" type="b" size="150"/>
 					</for>
 				</case>
 			</switch>
@@ -8227,7 +8232,7 @@
 			<part name="CharacterDeletionDate" type="d">
 				<reader type="UnixDate"/>
 			</part>
-			<part name="Spacer/Garbage/TODO ?" type="b" size="268"/>
+			<part name="Spacer/Garbage/TODO ?" type="b" size="260"/>
 		</packet>
 		<packet id="0xCA" name="SM_DELETE_CHARACTER">
 			<part name="unk1" type="d"/>
@@ -8245,7 +8250,11 @@
 			<part name="z" type="f"/>
 			<part name="heading" type="c"/>
 		</packet>
+<<<<<<< HEAD
 		<packet id="0xCD" name="SM_LOOT_STATUS">
+=======
+		<packet id="0xCD4477" name="SM_LOOT_STATUS">
+>>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
 			<part name="targetObjectId" type="d"/>
 			<part name="state" type="c"/>
 			<part name="unk" type="d"/>
@@ -8266,7 +8275,11 @@
 				<part name="is traidable?" type="c"/>
 			</for>
 		</packet>
+<<<<<<< HEAD
 		<packet id="0xCF" name="SM_RECIPE_LIST">
+=======
+		<packet id="0xCF1258" name="SM_RECIPE_LIST">
+>>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
 			<part name="count" type="h" id="0"/>
 			<for id="0">
 				<part name="id" type="d">
@@ -9773,7 +9786,11 @@
 			<part name="unk" type="d"/>
 			<part name="unk" type="c"/>
 		</packet>
+<<<<<<< HEAD
 		<packet id="0x14B" name="________________SM_SHUGO_SWEEP"> <!-- 5.3 TODO -->
+=======
+		<packet id="0x14B5441" name="________________SM_LUCKY_DICE"> <!-- 5.3 TODO -->
+>>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
 			<part name="boardId" type="d"/> <!-- Board ID -->
 			<part name="unk" type="d"/> <!-- Platz auf dem ich derzeit stehe -->
 			<part name="unk" type="d">
@@ -10446,7 +10463,11 @@
 		<packet id="0x173" name="________________SM_LUNA_INSTANCE">
 			<part name="unk" type="c"/>
 		</packet>
+<<<<<<< HEAD
 		<packet id="0x17B" name="________________SM_LUGBUG_MISSION"> <!-- 7.x TODO -->
+=======
+		<packet id="0x17B011" name="________________SM_LUGBUG_MISSION"> <!-- 7.x TODO -->
+>>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
 			<part name="date" type="d">
 				<reader type="UnixDate" />
 			</part>
@@ -10626,7 +10647,7 @@
 			</for>
 		</packet>
 		<packet id="0x184" name="________________SM_UNK_184"/> <!-- 7.x TODO -->
-		<packet id="0x183" name="________________SM_DIMENSIONAL_HOURGLASS"> <!-- 7.5 EU -->
+		<packet id="0x185" name="________________SM_DIMENSIONAL_HOURGLASS"> <!-- 7.x -->
 			<part name="minutes" type="d"/>
 		</packet>
 		<packet id="0x182" name="________________SM_SIEGE_LOCATION_INFO_TODO"> <!-- 7.2 EU NEW TODO -->
@@ -10802,6 +10823,7 @@
 				<case id="default"/>
 			</switch>
 		</packet>
+<<<<<<< HEAD
 		<packet id="0x185" name="________________SM_WORLD_PLAYTIME"> <!-- 7.5 EU TODO -->
 			<part name="playtime" type="d"/>
 		</packet>
@@ -10828,6 +10850,8 @@
 		<packet id="0x189" name="________________SM_ELIM_ENERGY"> <!-- 7.5 EU TODO -->
 			<part name="percent (62500 = 25%)" type="Q"/>
 		</packet>
+=======
+>>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
 	</packetfamilly>
 	<!-- ============= -->
 	<!-- ClientPackets -->
@@ -10894,7 +10918,7 @@
 				<case id="default"/>
 			</switch>
 		</packet>
-		<packet id="0xDF" name="CM_LEVEL_READY"/> <!-- 7.5 EU -->
+		<packet id="0xB4" name="CM_LEVEL_READY"/> <!-- 7.2 EU -->
 		<packet id="0x180" name="CM_MAC_ADDRESS"> <!-- 7.5 EU -->
 			<part name="unk" type="c"/>
 			<part name="counter" type="h" id="0"/>
@@ -11151,7 +11175,7 @@
 				<case id="default" comment="UNKNOWN"/>
 			</switch>
 		</packet>
-		<packet id="0xE1" name="CM_TARGET_SELECT"> <!-- 7.5 EU -->
+		<packet id="0xCE" name="CM_TARGET_SELECT"> <!-- 7.2 EU -->
 			<part name="targetObjectId" type="d"/>
 			<part name="type" type="c"/>
 		</packet>
@@ -11261,7 +11285,6 @@
 			<part name="unk 0" type="c"/>
 			<part name="unk 0" type="c"/>
 			<part name="Height" type="f"/>
-			<part name="unk 0/1" type="c"/>
 			<part name="unk 0" type="c"/>
 		</packet>
 		<packet id="0x16F" name="CM_DELETE_CHARACTER"> <!-- 7.5 EU -->
@@ -11272,7 +11295,7 @@
 			<part name="accountId" type="d"/>
 			<part name="objectId" type="d"/>
 		</packet>
-		<packet id="0x163" name="CM_MOVE_ITEM"> <!-- 7.5 EU -->
+		<packet id="0x148" name="CM_MOVE_ITEM"> <!-- 7.2 EU -->
 			<part name="targetObjectId" type="d"/>
 			<part name="source" type="c">
 				<reader type="MultiValue" name="warehouseType"/>
@@ -11293,7 +11316,7 @@
 			<part name="targetName" type="S"/>
 			<part name="message" type="S"/>
 		</packet>
-		<packet id="0xE5" name="CM_GATHER"> <!-- 7.5 EU -->
+		<packet id="0xC2" name="CM_GATHER"> <!-- 7.2 EU -->
 			<part name="action" type="d"/>
 		</packet>
 		<packet id="0x197" name="CM_INSTANCE_INFO"> <!-- 7.5 EU -->
@@ -11322,7 +11345,7 @@
 		<packet id="0x10C" name="CM_SET_NOTE"> <!-- 7.x EU -->
 			<part name="note" type="S"/>
 		</packet>
-		<packet id="0x113" name="CM_FIND_GROUP"> <!-- 7.5 EU -->
+		<packet id="0x2F8" name="CM_FIND_GROUP"> <!-- 7.2 EU -->
 			<part name="type" type="c" id="0"/>
 			<switch id="0">
 				<case id="0x00" comment="recruit list"/>
@@ -11458,10 +11481,17 @@
 		<packet id="0x101" name="CM_EXCHANGE_REQUEST"> <!-- 7.5 EU -->
 			<part name="targetObjectId" type="d"/>
 		</packet>
+<<<<<<< HEAD
 		<packet id="0x145" name="CM_DUEL_REQUEST"> <!-- 7.5 EU -->
 			<part name="objectId" type="d"/>
 		</packet>
 		<packet id="0x162" name="CM_LOOT_ITEM"> <!-- 7.5 EU -->
+=======
+		<packet id="0x162" name="CM_DUEL_REQUEST"> <!-- 7.2 EU -->
+			<part name="objectId" type="d"/>
+		</packet>
+		<packet id="0x14B" name="CM_LOOT_ITEM"> <!-- 7.2 EU -->
+>>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
 			<part name="targetObjectId" type="d"/>
 			<part name="index" type="c"/>
 		</packet>
@@ -11482,14 +11512,18 @@
 			<part name="time" type="h"/>
 			<part name="type" type="c"/>
 		</packet>
+<<<<<<< HEAD
 		<packet id="0x19F" name="CM_AUTO_GROUP"> <!-- 7.5 EU -->
+=======
+		<packet id="0x174" name="CM_AUTO_GROUP"> <!-- 7.2 EU -->
+>>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
 			<part name="instanceMaskId" type="d"/>
 			<part name="windowId" type="c"/>
 			<part name="entryRequestId" type="c"/>
 			<part name="unk" type="d"/>
 			<part name="unk" type="d"/>
 		</packet>
-		<packet id="0x127" name="CM_PLAY_MOVIE_END"> <!-- 7.5 EU -->
+		<packet id="0x2FC" name="CM_PLAY_MOVIE_END"> <!-- 7.2 EU -->
 			<part name="type" type="c"/>
 			<part name="unk" type="d"/>
 			<part name="unk" type="d"/>
@@ -11617,7 +11651,7 @@
 			<part name="ultimate_item_above" type="d"/>
 			<part name="unk" type="d"/>
 		</packet>
-		<packet id="0x107" name="CM_MOVE_IN_AIR"> <!-- 7.5 EU Flighttranport -->
+		<packet id="0x11C" name="CM_MOVE_IN_AIR"> <!-- 7.2 EU Flighttranport -->
 			<part name="worldId" type="d"/>
 			<part name="x" type="f"/>
 			<part name="y" type="f"/>
@@ -11704,7 +11738,11 @@
 			<part name="itemUniqueId" type="d"/>
 			<part name="itemCount" type="Q"/>
 		</packet>
+<<<<<<< HEAD
 		<packet id="0x138" name="CM_BROKER_SETTLE_LIST"> <!-- 7.5 EU -->
+=======
+		<packet id="0x16D" name="CM_BROKER_SETTLE_LIST"> <!-- 7.2 EU -->
+>>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
 			<part name="npcId" type="d"/>
 		</packet>
 		<packet id="0x140" name="CM_BROKER_REGISTERED"> <!-- 7.5 EU -->
@@ -11901,7 +11939,11 @@
 			<part name="targetName" type="S"/>
 			<part name="reason" type="S"/>
 		</packet>
+<<<<<<< HEAD
 		<packet id="0x17E" name="CM_BLOCK_DEL"> <!-- 7.5 EU -->
+=======
+		<packet id="0x197" name="CM_BLOCK_DEL"> <!-- 7.2 EU -->
+>>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
 			<part name="targetName" type="S"/>
 		</packet>
 		<packet id="0x11C" name="________________CM_MANASTONE"> <!-- 7.5 EU -->
@@ -11957,7 +11999,11 @@
 			<part name="green" type="c"/>
 			<part name="blue" type="c"/>
 		</packet>
+<<<<<<< HEAD
 		<packet id="0x16C00" name="CM_LEGION_UPLOAD_INFO">
+=======
+		<packet id="0x14C" name="CM_LEGION_UPLOAD_INFO"> <!-- 7.2 EU -->
+>>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
 			<part name="totalSize" type="d"/>
 			<part name="unk(0xFF)" type="c"/>
 			<part name="red" type="c"/>
@@ -12056,7 +12102,7 @@
 			<part name="unk" type="c"/>
 			<part name="unk" type="c"/>
 		</packet>
-		<packet id="0x19C" name="CM_SUMMON_MOVE"> <!-- 7.5 EU -->
+		<packet id="0x175" name="CM_SUMMON_MOVE"> <!-- 7.2 EU -->
 			<part name="summonObjectId" type="d"/>
 			<part name="x" type="f"/>
 			<part name="y" type="f"/>
@@ -12077,13 +12123,13 @@
 				<case id="default" comment="UNKNOWN"/>
 			</switch>
 		</packet>
-		<packet id="0x14C" name="CM_SUMMON_COMMAND"> <!-- 7.5 EU -->
+		<packet id="0x165" name="CM_SUMMON_COMMAND"> <!-- 7.2 EU -->
 			<part name="mode" type="c"/>
 			<part name="unk" type="d"/>
 			<part name="unk" type="d"/>
 			<part name="targetObjectId" type="d"/>
 		</packet>
-		<packet id="0x19D" name="CM_SUMMON_EMOTION"> <!-- 7.5 EU -->
+		<packet id="0x17A" name="CM_SUMMON_EMOTION"> <!-- 7.2 EU -->
 			<part name="summonObjectId" type="d"/>
 			<part name="emotionTypeId" type="c"/>
 		</packet>
