@@ -986,7 +986,7 @@
 			<part name="Todo" type="h"/>
 			<part name="Todo" type="h"/>
 		</packet>
-		<packet id="0x03" name="SM_STATUPDATE_HP">
+		<packet id="0x01" name="SM_STATUPDATE_HP">
 			<part name="currentHp" type="d"/>
 			<part name="maxHp" type="d"/>
 		</packet>
@@ -994,7 +994,7 @@
 			<part name="currentMp" type="d"/>
 			<part name="maxMp" type="d"/>
 		</packet>
-		<packet id="0x05" name="SM_ATTACK_STATUS">
+		<packet id="0x03" name="SM_ATTACK_STATUS"> <!-- 7.5 EU -->
 			<part name="creatureObjectId" type="d"/>
 			<part name="SomeObjectId/ TODO" type="d"/>
 			<part name="value" type="d"/>
@@ -1116,7 +1116,7 @@
 			<part name="unk(4.0)" type="d"/>
 			<part name="unk" type="c"/>
 		</packet>
-		<packet id="0x11" name="SM_GATHERABLE_INFO">
+		<packet id="0x0F" name="SM_GATHERABLE_INFO"> <!-- 7.5 EU -->
 			<part name="x" type="f"/>
 			<part name="y" type="f"/>
 			<part name="z" type="f"/>
@@ -1497,7 +1497,7 @@
 				<reader type="Inflate"/>
 			</part>
 		</packet>
-		<packet id="0x1F" name="SM_PLAYER_STANCE">
+		<packet id="0x1F5554" name="SM_PLAYER_STANCE">
 			<part name="playerObjId" type="d"/>
 			<part name="state" type="c"/>
 		</packet>
@@ -1507,7 +1507,7 @@
 			<part name="unk(0x00)" type="h"/>
 			<part name="status" type="c"/>
 		</packet>
-		<packet id="0x21" name="SM_CASTSPELL">
+		<packet id="0x212222" name="SM_CASTSPELL">
 			<part name="attackerObjectId" type="d"/>
 			<part name="spellId" type="h">
 				<reader type="UrlOpen" url="http://aioncodex.com/en/skill/%s"/>
@@ -2198,7 +2198,7 @@
 				</case>
 			</switch>
 		</packet>
-		<packet id="0x23" name="SM_GATHER_UPDATE">
+		<packet id="0x21" name="SM_GATHER_UPDATE"> <!-- 7.5 EU -->
 			<part name="skillId" type="h">
 				<reader type="UrlOpen" url="http://aioncodex.com/en/skill/%s"/>
 			</part>
@@ -2796,7 +2796,7 @@
 				</case>
 			</switch>
 		</packet>
-		<packet id="0x2D" name="SM_SKILL_REMOVE">
+		<packet id="0x2B" name="SM_SKILL_REMOVE"> <!-- 7.5 EU -->
 			<part name="skillId" type="h">
 				<reader type="UrlOpen" url="http://aioncodex.com/en/skill/%s"/>
 			</part>
@@ -2828,7 +2828,7 @@
 				<part name="unk 5.3" type="h"/>
 			</for>
 		</packet>
-		<packet id="0x32" name="SM_ABNORMAL_EFFECT">
+		<packet id="0x32" name="SM_ABNORMAL_EFFECT"> <!-- 7.5 EU -->
 			<part name="effectedId" type="d"/>
 			<part name="effectType" type="c" id="0"/>
 			<part name="unk1" type="d"/>
@@ -2958,7 +2958,7 @@
 				<part name="unk" type="d"/>
 			</for>
 		</packet>
-		<packet id="0x37" name="SM_MOVE">
+		<packet id="0x35" name="SM_MOVE"> <!-- 7.5 EU -->
 			<part name="objectId" type="d"/>
 			<part name="x" type="f"/>
 			<part name="y" type="f"/>
@@ -2979,7 +2979,7 @@
 			<part name="objectId" type="d"/>
 			<part name="heading" type="c"/>
 		</packet>
-		<packet id="0x3A" name="SM_TRANSFORM">
+		<packet id="0x3A" name="SM_TRANSFORM"> <!-- 7.5 EU -->
 			<part name="objId" type="d"/>
 			<part name="transformedModelId" type="d"/>
 			<part name="state" type="h"/>
@@ -3091,7 +3091,7 @@
 				<part name="tradeTablId" type="d"/>
 			</for>
 		</packet>
-		<packet id="0x41" name="SM_VIEW_PLAYER_DETAILS">
+		<packet id="0x415577" name="SM_VIEW_PLAYER_DETAILS">
 			<part name="playerId" type="d"/>
 			<part name="0x0B" type="c"/>
 			<part name="itemCount" type="h" id="0"/>
