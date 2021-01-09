@@ -2199,7 +2199,11 @@
 			</switch>
 		</packet>
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<packet id="0x23" name="SM_GATHER_UPDATE">
+=======
+		<packet id="0x23558" name="SM_GATHER_UPDATE">
+>>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
 =======
 		<packet id="0x23558" name="SM_GATHER_UPDATE">
 >>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
@@ -6032,7 +6036,11 @@
 			<part name="summonObjId" type="d"/>
 		</packet>
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<packet id="0x9B" name="SM_SUMMON_UPDATE">
+=======
+		<packet id="0x9B125" name="SM_SUMMON_UPDATE">
+>>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
 =======
 		<packet id="0x9B125" name="SM_SUMMON_UPDATE">
 >>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
@@ -8251,7 +8259,11 @@
 			<part name="heading" type="c"/>
 		</packet>
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<packet id="0xCD" name="SM_LOOT_STATUS">
+=======
+		<packet id="0xCD4477" name="SM_LOOT_STATUS">
+>>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
 =======
 		<packet id="0xCD4477" name="SM_LOOT_STATUS">
 >>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
@@ -8276,7 +8288,11 @@
 			</for>
 		</packet>
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<packet id="0xCF" name="SM_RECIPE_LIST">
+=======
+		<packet id="0xCF1258" name="SM_RECIPE_LIST">
+>>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
 =======
 		<packet id="0xCF1258" name="SM_RECIPE_LIST">
 >>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
@@ -9787,7 +9803,11 @@
 			<part name="unk" type="c"/>
 		</packet>
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<packet id="0x14B" name="________________SM_SHUGO_SWEEP"> <!-- 5.3 TODO -->
+=======
+		<packet id="0x14B5441" name="________________SM_LUCKY_DICE"> <!-- 5.3 TODO -->
+>>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
 =======
 		<packet id="0x14B5441" name="________________SM_LUCKY_DICE"> <!-- 5.3 TODO -->
 >>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
@@ -10464,7 +10484,11 @@
 			<part name="unk" type="c"/>
 		</packet>
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<packet id="0x17B" name="________________SM_LUGBUG_MISSION"> <!-- 7.x TODO -->
+=======
+		<packet id="0x17B011" name="________________SM_LUGBUG_MISSION"> <!-- 7.x TODO -->
+>>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
 =======
 		<packet id="0x17B011" name="________________SM_LUGBUG_MISSION"> <!-- 7.x TODO -->
 >>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
@@ -10824,6 +10848,7 @@
 			</switch>
 		</packet>
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<packet id="0x185" name="________________SM_WORLD_PLAYTIME"> <!-- 7.5 EU TODO -->
 			<part name="playtime" type="d"/>
 		</packet>
@@ -10850,6 +10875,8 @@
 		<packet id="0x189" name="________________SM_ELIM_ENERGY"> <!-- 7.5 EU TODO -->
 			<part name="percent (62500 = 25%)" type="Q"/>
 		</packet>
+=======
+>>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
 =======
 >>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
 	</packetfamilly>
@@ -11482,15 +11509,21 @@
 			<part name="targetObjectId" type="d"/>
 		</packet>
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<packet id="0x145" name="CM_DUEL_REQUEST"> <!-- 7.5 EU -->
 			<part name="objectId" type="d"/>
 		</packet>
 		<packet id="0x162" name="CM_LOOT_ITEM"> <!-- 7.5 EU -->
 =======
+=======
+>>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
 		<packet id="0x162" name="CM_DUEL_REQUEST"> <!-- 7.2 EU -->
 			<part name="objectId" type="d"/>
 		</packet>
 		<packet id="0x14B" name="CM_LOOT_ITEM"> <!-- 7.2 EU -->
+<<<<<<< HEAD
+>>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
+=======
 >>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
 			<part name="targetObjectId" type="d"/>
 			<part name="index" type="c"/>
@@ -11513,7 +11546,11 @@
 			<part name="type" type="c"/>
 		</packet>
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<packet id="0x19F" name="CM_AUTO_GROUP"> <!-- 7.5 EU -->
+=======
+		<packet id="0x174" name="CM_AUTO_GROUP"> <!-- 7.2 EU -->
+>>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
 =======
 		<packet id="0x174" name="CM_AUTO_GROUP"> <!-- 7.2 EU -->
 >>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
@@ -11739,7 +11776,11 @@
 			<part name="itemCount" type="Q"/>
 		</packet>
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<packet id="0x138" name="CM_BROKER_SETTLE_LIST"> <!-- 7.5 EU -->
+=======
+		<packet id="0x16D" name="CM_BROKER_SETTLE_LIST"> <!-- 7.2 EU -->
+>>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
 =======
 		<packet id="0x16D" name="CM_BROKER_SETTLE_LIST"> <!-- 7.2 EU -->
 >>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
@@ -11940,7 +11981,11 @@
 			<part name="reason" type="S"/>
 		</packet>
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<packet id="0x17E" name="CM_BLOCK_DEL"> <!-- 7.5 EU -->
+=======
+		<packet id="0x197" name="CM_BLOCK_DEL"> <!-- 7.2 EU -->
+>>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
 =======
 		<packet id="0x197" name="CM_BLOCK_DEL"> <!-- 7.2 EU -->
 >>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
@@ -12000,7 +12045,11 @@
 			<part name="blue" type="c"/>
 		</packet>
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<packet id="0x16C00" name="CM_LEGION_UPLOAD_INFO">
+=======
+		<packet id="0x14C" name="CM_LEGION_UPLOAD_INFO"> <!-- 7.2 EU -->
+>>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
 =======
 		<packet id="0x14C" name="CM_LEGION_UPLOAD_INFO"> <!-- 7.2 EU -->
 >>>>>>> parent of b585ce7e... 7.5: Packet Samurai - update Protocol
